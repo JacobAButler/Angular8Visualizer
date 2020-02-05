@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PathfindingComponent } from './pathfinding/pathfinding.component';
+import { SortingComponent } from './sorting/sorting.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PathfindingComponent,
+    SortingComponent
   ],
   imports: [
     BrowserModule,
