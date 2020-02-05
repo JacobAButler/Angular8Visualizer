@@ -30,7 +30,7 @@ export class PathfindingComponent implements OnInit {
 
   ngOnInit() {
     this.canvasWidth = 1200;
-    this.canvasHeight = 600;
+    this.canvasHeight = 300;
     this.gridSize = 50;
     this.cubeLength = this.canvasWidth/this.gridSize;
     this.cubeHeight = this.canvasHeight/this.gridSize;
